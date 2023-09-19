@@ -41,7 +41,7 @@ return (
             onChange={(e)=> setNewComment(e.target.value)}>
             </textarea>
              <button className="btn custom-btn" type="submit" onClick={addComment}>
-            Add Comment
+            Add Comments
           </button>
         </div>
     </div>
