@@ -11,9 +11,14 @@ function CommentSection(){
     const addComment= () =>{
         if (newComment.trim() !==''){
             setComment([...comment, newComment]);
-            setNewComment('');
+            setNewComment(''); // clears text field after adding comment
     }
 };
+// deleting comments
+const deleteComment = (indexToDelete) => {
+    const updatedComments = comment.filter((_, index) => index !== indexToDelete);
+    setComment(updatedComments);
+}
 
 return (
     <div className = "comment-card">
@@ -22,6 +27,9 @@ return (
             {comment.map((comment, index)=> (
                 <div style={{color:"white"}} key={index} className="comment">
                     {comment}
+                    <button className="btn custom-btn" type="button" onClick={() => deleteComment(index)}>
+                    Delete Comment
+                    </button>
                     </div>
             ))}
         </div>
