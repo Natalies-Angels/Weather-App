@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-btn {
+  background-color: #383752;
+  color: white;
+  
+}
+
+.custom-btn:hover {
+  background-color: #7066aa;
+}
+/* .footer {
+  position: fixed;
+  padding: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1a1831;
+  color: white;
+  text-align: left;
+} */
+
+
+.navbar {
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.datetime {
+  margin-top: 200px; 
+  font-size: 24px;
+}
+
+.custom-bg {
+  background-color: #1a1831;
+}
+
+.custom-card {
+  background-color: #1a1831;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  
+}
+
+.inner-card {
+  background-color: #383752;
+  color: white;
+}
+
+.custom-card i {
+  font-size: 36px;
+}
+
+.custom-card h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.temp {
+  font-size: 30px;
+}
+
+.custom-card .card-text {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.custom-card .card-body {
+  padding: 20px;
+}
+
+
+.custom-inner-card .row .col {
+  border-right: 1px solid #7066aa;
+  padding-right: 15px;
+}
+
+.custom-inner-card .row .col:last-child {
+  border-right: none;
+}
+
+.alert 
+{  
+  background-color: #383752;
+  color: white;
+  margin-top: 100px;
+}
+
+.label {
+  font-size: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.text-center mt-4
+{
+  margin-top: 100px;
+}
